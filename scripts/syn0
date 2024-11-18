@@ -1,0 +1,16 @@
+#!/bin/bash
+sync() {
+mkdir -p ~/power
+cd ~/power
+git config --global user.name "ij_israfil"
+git config --global user.email "israfilkhan494@gmail.com"
+repo init --depth=1 -u $MANIFEST
+git clone $LOCAL_MANIFEST .repo/local_manifests
+repo sync -c --force-sync --optimized-fetch --no-tags --no-clone-bundle -j8
+}
+
+echo "Syncing Rom and Device Sources..."
+sync
+echo "Syncing"
+echo "Syncing...."
+echo "Syncing......Done"

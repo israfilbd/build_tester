@@ -1,0 +1,19 @@
+env:
+    MANIFEST: https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
+
+task:
+  name: "build"
+  timeout_in: 40m
+  container:
+      image: shazuxdd/ubuntu:latest
+      cpu: 8
+      memory: 32G
+  Storage-Checker_script:
+      - ./scripts/d0wnl0ad
+  Sync_script:
+      - ./scripts/syn0
+  Build_script:
+      - ./scripts/bu1ld
+  upload_script:
+      - ./scripts/upl0ad
