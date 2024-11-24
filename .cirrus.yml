@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
+    MANIFEST: https://github.com/RisingOS-staging/android -b fifteen --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b rising-15
 
 task:
   name: "build"
