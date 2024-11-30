@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~/power
-export TZ=="Asia/Dhaka" date "+%a %b %d %r"
+export TZ=="Asia/Dhaka"
 . build/envsetup.sh
 lunch lineage_RMX1901-ap3a-user
 m evolution
