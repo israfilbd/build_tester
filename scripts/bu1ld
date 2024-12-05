@@ -1,4 +1,5 @@
 #!/bin/bash
+rm -rf scripts
 cd ~/fox-12.1
 export TZ="Asia/Dhaka"
 git clone -b stable https://github.com/ij-israfil/recovery_realme_RMX1901 device/realme/RMX1901
