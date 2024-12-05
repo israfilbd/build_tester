@@ -3,15 +3,18 @@ rm -rf scripts
 mkdir fox-12.1
 cd fox-12.1
 export TZ="Asia/Dhaka"
+sudo apt install git aria2 -y
 git clone https://gitlab.com/OrangeFox/misc/scripts --depth=1
 cd scripts       
 sudo bash setup/android_build_env.sh
- cd -
+sudo bash setup/install_android_sdk.sh
+cd -
 mkdir OrangeFox_sync
 cd OrangeFox_sync
 git clone https://gitlab.com/OrangeFox/sync.git --depth=1
 cd sync/
 ./orangefox_sync.sh --branch 12.1 --path ~/fox_12.1
+cd ~/fox_12.1
 git  clone -b stable https://github.com/ij-israfil/recovery_realme_RMX1901 device/realme/RMX1901
 # build command
 . build/envsetup.sh
