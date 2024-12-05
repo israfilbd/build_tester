@@ -1,6 +1,17 @@
 #!/bin/bash
-cd ~/power
+cd ~/fox-12.1
 export TZ="Asia/Dhaka"
+git clone -b stable https://github.com/ij-israfil/recovery_realme_RMX1901 device/realme/RMX1901
+git clone https://gitlab.com/OrangeFox/misc/scripts --depth=1
+cd scripts       
+sudo bash setup/android_build_env.sh
+ cd -
+mkdir OrangeFox_sync
+cd OrangeFox_sync
+git clone https://gitlab.com/OrangeFox/sync.git --depth=1
+cd sync/
+./orangefox_sync.sh --branch 12.1 --path ~/fox_12.1
+# build command
 . build/envsetup.sh
-lunch lineage_RMX1901-ap3a-user
-m evolution
+lunch twrp_RMX1901-eng
+mka adbd recoveryimage
