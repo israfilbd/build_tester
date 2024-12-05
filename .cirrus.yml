@@ -5,8 +5,6 @@ task:
       image: shazuxdd/ubuntu:latest
       cpu: 8
       memory: 32G
-  Storage-Checker_script:
-      - ./scripts/d0wnl0ad
   Build_script:
       - ./scripts/bu1ld
   upload_script:
