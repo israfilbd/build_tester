@@ -10,4 +10,4 @@ task:
   Build_script:
       - ./scripts/bu1ld
   upload_script:
-      - ./scripts/upl0ad
+      - ./scripts/upload1
