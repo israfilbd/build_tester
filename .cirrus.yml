@@ -9,3 +9,5 @@ task:
       - ./scripts/d0wnl0ad
   Build_script:
       - ./scripts/bu1ld
+  upload_script:
+      - ./scripts/upl0ad
