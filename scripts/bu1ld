@@ -20,3 +20,8 @@ git  clone -b stable https://github.com/ij-israfil/recovery_realme_RMX1901 devic
 . build/envsetup.sh
 lunch twrp_RMX1901-eng
 mka adbd recoveryimage
+
+# upload 
+cd out/target/product/RMX1901
+sudo wget https://raw.githubusercontent.com/ij-project/gofile-uploader/refs/heads/master/gofile -O "/usr/local/bin/gofile"; sudo chmod +x "/usr/local/bin/gofile"
+gofile Orange*.zip
