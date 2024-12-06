@@ -2,4 +2,5 @@
 cd ~/power
 export TZ="Asia/Dhaka"
 . build/envsetup.sh
+make installclean
 brunch RMX1901 user
