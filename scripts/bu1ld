@@ -2,5 +2,5 @@
 cd ~/power
 export TZ="Asia/Dhaka"
 . build/envsetup.sh
-make installclean
-brunch RMX1901 user
+lunch voltage_RMX1901-ap3a-user
+mka bacon
