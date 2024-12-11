@@ -2,4 +2,4 @@
 cd ~/power
 . build/envsetup.sh
 lunch pb_RMX1901-eng
-mka pbrb
+mka pbrp
