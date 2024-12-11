@@ -3,3 +3,4 @@
 cd ~/power/out/target/product/RMX1901
 sudo wget https://raw.githubusercontent.com/ij-project/gofile-uploader/refs/heads/master/gofile -O "/usr/local/bin/gofile"; sudo chmod +x "/usr/local/bin/gofile"
 gofile PBRP*.zip
+gofile *.img
