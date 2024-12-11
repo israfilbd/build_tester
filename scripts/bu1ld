@@ -1,11 +1,5 @@
 #!/bin/bash
 cd ~/power
-export CCACHE_DIR=/tmp/ccache
-export CCACHE_EXEC=$(which ccache)
-export USE_CCACHE=1
-ccache -M 100G
-ccache -o compression=true
-ccache -z
 . build/envsetup.sh
-lunch lineage_RMX1901-ap3a-user
-rise b
+lunch pb_RMX1901-eng
+mka pbrb
