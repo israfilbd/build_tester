@@ -1,6 +1,6 @@
 env:
     MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-12.1 --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b pbrb
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b pbrp
 
 task:
   name: "build"
