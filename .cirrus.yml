@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/RisingOS-staging/android -b fifteen --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b rising-15
+    MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-12.1 --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b pbrb
 
 task:
   name: "build"
