@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/VoltageOS/manifest.git -b 15 --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b voltage
+    MANIFEST: https://github.com/ProjectPixelage/android_manifest.git -b 15 --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b pixelage
 
 task:
   name: "build"
