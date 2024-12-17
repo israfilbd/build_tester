@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/ij-project/manifest -b 15.0 --git-lfs --depth=1
+    MANIFEST: https://github.com/ij-project/android -b 15.0 --git-lfs --depth=1
     LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b cr-15
 
 task:
