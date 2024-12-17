@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
+    MANIFEST: https://github.com/ij-project/manifest -b 15.0 --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b cr-15
 
 task:
   name: "build"
