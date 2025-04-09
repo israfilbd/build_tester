@@ -15,7 +15,7 @@ git clone https://gitlab.com/OrangeFox/sync.git --depth=1
 cd sync/
 ./orangefox_sync.sh --branch 12.1 --path ~/fox_12.1
 cd ~/fox_12.1
-git  clone -b stable https://github.com/ij-israfil/recovery_realme_RMX1901 device/realme/RMX1901
+git  clone -b ofox https://github.com/ij-israfil/recovery_realme_RMX1901 device/realme/RMX1901
 # build command
 . build/envsetup.sh
 lunch twrp_RMX1901-eng
