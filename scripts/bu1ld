@@ -3,4 +3,4 @@ cd ~/power
 export TZ="Asia/Dhaka"
 . build/envsetup.sh
 lunch lineage_RMX1901-bp1a-user
-m evolution
+mka bacon
