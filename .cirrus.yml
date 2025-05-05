@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/ProjectInfinity-X/manifestl -b 15 --git-lfs --depth=1
+    MANIFEST: https://github.com/ProjectInfinity-X/manifest -b 15 --git-lfs --depth=1
     LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b infinity-15
 
 task:
