@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
+    MANIFEST: https://github.com/ProjectInfinity-X/manifestl -b 15 --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b infinity-15
 
 task:
   name: "build"
