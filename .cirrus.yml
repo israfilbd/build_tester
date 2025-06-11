@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b vic --git-lfs --depth=1
+    MANIFEST: https://github.com/Evolution-X/manifest -b bka --git-lfs --depth=1
     LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-vic
 
 task:
