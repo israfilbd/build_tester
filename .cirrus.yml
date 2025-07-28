@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/ProjectInfinity-X/manifest -b 15 --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b infinity-15
+    MANIFEST: https://github.com/ProjectInfinity-X/manifest -b 16 --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b infinity-16
 
 task:
   name: "build"
