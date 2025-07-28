@@ -3,4 +3,4 @@ cd ~/power
 export TZ="Asia/Dhaka"
 . build/envsetup.sh
 lunch infinity_RMX1901-user
-mka bacon
+m bacon
