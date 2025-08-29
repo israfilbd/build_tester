@@ -3,6 +3,6 @@ cd ~/power
 export TZ="Asia/Dhaka"
 export WITH_GMS=true
 source build/envsetup.sh
-axion RMX1901 user gms pico
+axion RMX1901 gms pico
 make installclean
 ax -b
