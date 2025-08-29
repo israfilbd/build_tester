@@ -1,6 +1,6 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b bka --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-bka
+    MANIFEST: https://github.com/AxionAOSP/android.git -b lineage-23.0 --git-lfs --depth=1
+    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b axion
 
 task:
   name: "build"
