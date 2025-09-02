@@ -2,7 +2,7 @@
 sync() {
 mkdir -p ~/power
 cd ~/power
-git config --global user.name "ij_israfil"
+git config --global user.name "Ij Israfil"
 git config --global user.email "israfilkhan494@gmail.com"
 repo init --depth=1 -u $MANIFEST
 git clone $LOCAL_MANIFEST .repo/local_manifests
