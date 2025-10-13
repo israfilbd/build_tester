@@ -1,6 +1,8 @@
 #!/bin/bash
 cd ~/power
 export TZ="Asia/Dhaka"
+# mic Fix
+echo ">>> Applying frameworks/base patch..." && cd frameworks/base && (git log --oneline | grep -q "dt2w\|DT2W\|double.*tap" || (wget -O temp.patch "https://github.com/israfilbd/fix/blob/main/Infinity/mic.patch" && (git apply temp.patch && git add . && git commit -m "Apply DT2W patch" || echo "Patch conflicts detected, continuing build...") && rm -f temp.patch)) && cd ../.. && echo ">>> Frameworks/base patch process completed!"
 . build/envsetup.sh
 lunch infinity_RMX1901-user
 m bacon
