@@ -2,6 +2,7 @@
 cd ~/power
 export TZ="Asia/Dhaka"
 export WITH_GMS=true
+export TARGET_DISABLE_EPPE=true
 source build/envsetup.sh
 axion RMX1901 user gms pico
 make installclean
