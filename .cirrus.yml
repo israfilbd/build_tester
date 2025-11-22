@@ -6,7 +6,7 @@ task:
   name: "build"
   timeout_in: 40m
   container:
-      image: apon77/aosp:cirrus
+      image: accupara/aosp:baseline
       cpu: 8
       memory: 32G
   Storage-Checker_script:
