@@ -2,6 +2,6 @@
 cd ~/power
 export TZ="Asia/Dhaka"
 export TARGET_DISABLE_EPPE=true
-source build/envsetup.sh
+. build/envsetup.sh
 lunch lineage_RMX1901-bp3a-userdebug
 m evolution
