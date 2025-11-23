@@ -1,6 +1,6 @@
-env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b bq1 --git-lfs --depth=1
-    LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-bq1
+## env:
+  ##  MANIFEST: https://github.com/Evolution-X/manifest -b bq1 --git-lfs --depth=1
+  ##  LOCAL_MANIFEST: https://github.com/israfilbd/local_manifests.git -b evox-bq1
 
 task:
   name: "build"
@@ -13,7 +13,5 @@ task:
       - ./scripts/d0wnl0ad
   Sync_script:
       - ./scripts/syn0
-  Build_script:
-      - ./scripts/bu1ld
   upload_script:
       - ./scripts/upl0ad
