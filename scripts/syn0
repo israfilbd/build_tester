@@ -4,7 +4,7 @@ mkdir -p ~/ROM
 cd ~/ROM
 git config --global user.name "ij_israfil"
 git config --global user.email "israfilkhan494@gmail.com"
-curl -LSs https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/evox.sh | bash
+curl -LSs https://raw.githubusercontent.com/israfilbd/scripts/refs/heads/16/clover.sh | bash
 }
 
 echo "Syncing Rom and Device Sources..."
