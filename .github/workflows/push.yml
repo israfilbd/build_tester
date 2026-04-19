@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
     - name: Check Out
-      uses: actions/checkout@v3.6.0
+      uses: actions/checkout@v6.0.2
     - name: Display Run Parameters
       run: |
         rm trigger.txt
@@ -21,10 +21,8 @@ jobs:
         cat trigger.txt
 
     - name: Commit & Push changes
-      uses: actions-js/push@v1.4
+      uses: actions-js/push@v1.5
       with:
         branch: "evox-vic"
         github_token: ${{ secrets.GH_TOKEN }}
-        author_email: 'israfilkhan494@gmail.com'
-        author_name: 'Ij-Israfil'
         message: 'Builder: Trigger Build'
