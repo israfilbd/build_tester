@@ -18,6 +18,7 @@ cd sync/
 cd ~/fox_12.1
 git  clone -b ofox https://github.com/ij-israfil/recovery_realme_RMX1901 device/realme/RMX1901
 # build command
+export FOX_BASE_VERSION="R12.0"
 . build/envsetup.sh
 lunch twrp_RMX1901-eng
 mka adbd recoveryimage
